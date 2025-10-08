@@ -24,7 +24,7 @@ export default function RootLayout({
         {/* <Header/>
         {children}
         <Footer/> */}
-        <h1>site in progress</h1>
+        {children}
       </body>
     </html>
   );

@@ -38,7 +38,7 @@ function Navbar() {
      {/* links */}
      <div className="hidden lg:flex gap-8 text-white font-semibold">
       {
-        navLinks.map((link)=><Link id={link.id} href={link.url} className="hover:text-bg-btn cursor-pointer">{link.label}</Link>)
+        navLinks.map((link)=><Link key={link.id} href={link.url} className="hover:text-bg-btn cursor-pointer">{link.label}</Link>)
       }
      </div>
      {/* button */}
