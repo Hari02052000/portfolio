@@ -5,7 +5,7 @@ export default function Home() {
     // <main className="mt-7 overflow-hidden">
     //  <Hero/> 
     // </main>
-    <h1>site in progress</h1>
+    <h1 className="text-white">site in progress</h1>
 
   );
 }
